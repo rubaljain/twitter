@@ -1,0 +1,20 @@
+//
+//  Twitter-Demo-Prefix.pch
+//  Twitter-Demo
+//
+//  Created by Rubal on 17/01/17.
+//  Copyright © 2017 Rubal. All rights reserved.
+//
+
+#ifndef Twitter_Demo_Prefix_pch
+#define Twitter_Demo_Prefix_pch
+#define APP_DELEGATE ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "CVCUser.h"
+#import <TwitterKit/TwitterKit.h>
+#import "AFNetworking.h"
+#import "UIView+Toast.h"
+
+#endif /* Twitter_Demo_Prefix_pch */
